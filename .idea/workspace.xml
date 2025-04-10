@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9b82380-aa20-4d93-b0df-5b6ba9791175" name="Changes" comment="Sammak - Feature - Completed chapter 1 but summary needs completion">
-      <change afterPath="$PROJECT_DIR$/chapter_2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_2/flask_sample.py" afterDir="false" />
+    <list default="true" id="f9b82380-aa20-4d93-b0df-5b6ba9791175" name="Changes" comment="feature(package capter_2): complete chapter 2">
+      <change afterPath="$PROJECT_DIR$/chapter_3/Annotations.vy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_3/ControlStructures.vy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_3/DataTypes.vy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_3/EnvVar.vy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_3/EventLogging.vy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_3/Storage.vy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_3/StorageClient.vy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_3/StorageInit.vy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_3/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Vyper File" />
       </list>
     </option>
   </component>
@@ -85,7 +94,8 @@
       <workItem from="1742580564064" duration="171000" />
       <workItem from="1742584319614" duration="9150000" />
       <workItem from="1742630549767" duration="491000" />
-      <workItem from="1744257383430" duration="784000" />
+      <workItem from="1744257383430" duration="2382000" />
+      <workItem from="1744261981971" duration="4252000" />
     </task>
     <task id="LOCAL-00001" summary="Sammak - Feature - Completed chapter 1 but summary needs completion">
       <option name="closed" value="true" />
@@ -95,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742593465636</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feature(package capter_2): complete chapter 2">
+      <option name="closed" value="true" />
+      <created>1744261012601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744261012601</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +132,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sammak - Feature - Completed chapter 1 but summary needs completion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sammak - Feature - Completed chapter 1 but summary needs completion" />
+    <MESSAGE value="feature(package capter_2): complete chapter 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature(package capter_2): complete chapter 2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$block.coverage" NAME="block Coverage Results" MODIFIED="1742588365171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_1" />
