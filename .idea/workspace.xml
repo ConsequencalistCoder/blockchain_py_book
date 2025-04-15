@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9b82380-aa20-4d93-b0df-5b6ba9791175" name="Changes" comment="feature(package capter_3): complete chapter 3">
-      <change afterPath="$PROJECT_DIR$/chapter_4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/hello_web3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/send_eth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/send_eth_on_geth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/simple_contract/SimpleContract.vy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/simple_contract/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/simple_contract/deploy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/simple_contract/env_var.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/simple_contract/estimate_gas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/simple_contract/execute_donate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/simple_contract/execute_retrieve.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/simple_contract/execute_store.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/simple_contract/get_password.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/simple_contract/query_event.py" afterDir="false" />
+    <list default="true" id="f9b82380-aa20-4d93-b0df-5b6ba9791175" name="Changes" comment="feature(package capter_4): add the key made with clef">
+      <change afterPath="$PROJECT_DIR$/chapter_5/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_5/simple_storage/contracts/SimpleStorage.vy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_5/simple_storage/scripts/update_num.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_5/simple_storage/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_5/simple_storage/tests/test_simple_storage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +55,7 @@
   "keyToString": {
     "Python.block.executor": "Run",
     "Python.deploy.executor": "Run",
+    "Python.depoly.executor": "Run",
     "Python.env_var.executor": "Run",
     "Python.estimate_gas.executor": "Run",
     "Python.execute_donate.executor": "Run",
@@ -72,9 +64,11 @@
     "Python.flask_sample.executor": "Run",
     "Python.get_password.executor": "Run",
     "Python.hello_web3.executor": "Run",
+    "Python.print_private_key.executor": "Run",
     "Python.query_event.executor": "Run",
     "Python.send_eth.executor": "Run",
     "Python.send_eth_on_geth.executor": "Run",
+    "Python.update_num.executor": "Run",
     "Python.verify_message.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -117,7 +111,10 @@
       <workItem from="1744257383430" duration="2382000" />
       <workItem from="1744261981971" duration="4646000" />
       <workItem from="1744343800353" duration="2048000" />
-      <workItem from="1744387478654" duration="6112000" />
+      <workItem from="1744387478654" duration="6209000" />
+      <workItem from="1744706322415" duration="1312000" />
+      <workItem from="1744707680120" duration="2489000" />
+      <workItem from="1744725867977" duration="2703000" />
     </task>
     <task id="LOCAL-00001" summary="Sammak - Feature - Completed chapter 1 but summary needs completion">
       <option name="closed" value="true" />
@@ -143,7 +140,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744268583115</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feature(package capter_4): complete chapter 4">
+      <option name="closed" value="true" />
+      <created>1744396339681</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744396339681</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feature(package capter_4): add the key made with clef">
+      <option name="closed" value="true" />
+      <created>1744396404705</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744396404705</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,21 +177,26 @@
     <MESSAGE value="Sammak - Feature - Completed chapter 1 but summary needs completion" />
     <MESSAGE value="feature(package capter_2): complete chapter 2" />
     <MESSAGE value="feature(package capter_3): complete chapter 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature(package capter_3): complete chapter 3" />
+    <MESSAGE value="feature(package capter_4): complete chapter 4" />
+    <MESSAGE value="feature(package capter_4): add the key made with clef" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature(package capter_4): add the key made with clef" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/blockchain_by_python_book$deploy.coverage" NAME="deploy Coverage Results" MODIFIED="1744391451269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4/simple_contract" />
+    <SUITE FILE_PATH="coverage/blockchain_by_python_book$deploy.coverage" NAME="deploy Coverage Results" MODIFIED="1744726798398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_5/simple_storage/scripts" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$send_eth.coverage" NAME="send_eth Coverage Results" MODIFIED="1744348397884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4" />
+    <SUITE FILE_PATH="coverage/blockchain_by_python_book$print_private_key.coverage" NAME="print_private_key Coverage Results" MODIFIED="1744727331423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_utils" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$flask_sample.coverage" NAME="flask_sample Coverage Results" MODIFIED="1744258032689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$get_password.coverage" NAME="get_password Coverage Results" MODIFIED="1744395930428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4/simple_contract" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$execute_store.coverage" NAME="execute_store Coverage Results" MODIFIED="1744394946289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4/simple_contract" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$estimate_gas.coverage" NAME="estimate_gas Coverage Results" MODIFIED="1744391542209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4/simple_contract" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$query_event.coverage" NAME="query_event Coverage Results" MODIFIED="1744395672569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4/simple_contract" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$execute_donate.coverage" NAME="execute_donate Coverage Results" MODIFIED="1744394962053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4/simple_contract" />
+    <SUITE FILE_PATH="coverage/blockchain_by_python_book$update_num.coverage" NAME="update_num Coverage Results" MODIFIED="1744727812038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_5/simple_storage/scripts" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$block.coverage" NAME="block Coverage Results" MODIFIED="1742588365171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_1" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$send_eth_on_geth.coverage" NAME="send_eth_on_geth Coverage Results" MODIFIED="1744390036758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$env_var.coverage" NAME="env_var Coverage Results" MODIFIED="1744395864541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4/simple_contract" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$hello_web3.coverage" NAME="hello_web3 Coverage Results" MODIFIED="1744347962564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4" />
+    <SUITE FILE_PATH="coverage/blockchain_by_python_book$depoly.coverage" NAME="depoly Coverage Results" MODIFIED="1744710096469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_5/simple_storage/scripts" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$verify_message.coverage" NAME="verify_message Coverage Results" MODIFIED="1742592779945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_1" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$execute_retrieve.coverage" NAME="execute_retrieve Coverage Results" MODIFIED="1744394966905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4/simple_contract" />
   </component>
