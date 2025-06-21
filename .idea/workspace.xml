@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9b82380-aa20-4d93-b0df-5b6ba9791175" name="Changes" comment="feature(package capter_4): add the key made with clef">
-      <change afterPath="$PROJECT_DIR$/chapter_5/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_5/simple_storage/contracts/SimpleStorage.vy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_5/simple_storage/scripts/update_num.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_5/simple_storage/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_5/simple_storage/tests/test_simple_storage.py" afterDir="false" />
+    <list default="true" id="f9b82380-aa20-4d93-b0df-5b6ba9791175" name="Changes" comment="feature(package capter_5): complete chapter 5">
+      <change afterPath="$PROJECT_DIR$/chapter_6/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_6/hello_button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_6/hello_pyside.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_6/simple_pyside_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_6/voting_app/contracts/VotingApp.vy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_6/voting_app/scripts/add_proposals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_6/voting_app/scripts/deploy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_6/voting_app/scripts/give_right_to_vote.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_6/voting_app/scripts/vote.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_6/voting_app/scripts/voting_gui_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +68,7 @@
     "Python.execute_store.executor": "Run",
     "Python.flask_sample.executor": "Run",
     "Python.get_password.executor": "Run",
+    "Python.hello_button.executor": "Run",
     "Python.hello_web3.executor": "Run",
     "Python.print_private_key.executor": "Run",
     "Python.query_event.executor": "Run",
@@ -79,6 +85,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.project",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,6 +93,36 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/chapter_4/simple_contract" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="hello_button" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="blockchain_by_python_book" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_6/hello_button.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.hello_button" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -115,6 +152,10 @@
       <workItem from="1744706322415" duration="1312000" />
       <workItem from="1744707680120" duration="2489000" />
       <workItem from="1744725867977" duration="2703000" />
+      <workItem from="1744728645517" duration="100000" />
+      <workItem from="1744861020490" duration="248000" />
+      <workItem from="1745078380521" duration="41000" />
+      <workItem from="1750498120852" duration="8234000" />
     </task>
     <task id="LOCAL-00001" summary="Sammak - Feature - Completed chapter 1 but summary needs completion">
       <option name="closed" value="true" />
@@ -156,7 +197,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744396404705</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feature(package capter_5): complete chapter 5">
+      <option name="closed" value="true" />
+      <created>1744728666444</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744728666444</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feature(package capter_5): complete chapter 5">
+      <option name="closed" value="true" />
+      <created>1744728717197</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744728717197</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +236,8 @@
     <MESSAGE value="feature(package capter_3): complete chapter 3" />
     <MESSAGE value="feature(package capter_4): complete chapter 4" />
     <MESSAGE value="feature(package capter_4): add the key made with clef" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature(package capter_4): add the key made with clef" />
+    <MESSAGE value="feature(package capter_5): complete chapter 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature(package capter_5): complete chapter 5" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$deploy.coverage" NAME="deploy Coverage Results" MODIFIED="1744726798398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_5/simple_storage/scripts" />
@@ -190,6 +248,7 @@
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$execute_store.coverage" NAME="execute_store Coverage Results" MODIFIED="1744394946289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4/simple_contract" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$estimate_gas.coverage" NAME="estimate_gas Coverage Results" MODIFIED="1744391542209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4/simple_contract" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$query_event.coverage" NAME="query_event Coverage Results" MODIFIED="1744395672569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4/simple_contract" />
+    <SUITE FILE_PATH="coverage/blockchain_by_python_book$hello_button.coverage" NAME="hello_button Coverage Results" MODIFIED="1750505506655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_6" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$execute_donate.coverage" NAME="execute_donate Coverage Results" MODIFIED="1744394962053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4/simple_contract" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$update_num.coverage" NAME="update_num Coverage Results" MODIFIED="1744727812038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_5/simple_storage/scripts" />
     <SUITE FILE_PATH="coverage/blockchain_by_python_book$block.coverage" NAME="block Coverage Results" MODIFIED="1742588365171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_1" />
